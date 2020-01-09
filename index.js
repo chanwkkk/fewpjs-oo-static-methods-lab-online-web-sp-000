@@ -21,7 +21,6 @@ class Formatter {
   }
   return newString.join(" ")
 }
-}
 
 
 
