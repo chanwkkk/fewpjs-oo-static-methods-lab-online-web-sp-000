@@ -11,7 +11,15 @@ class Formatter {
   static titleize(string){
     let stringArray = string.split(' ')
     const ESCAPEWORDS = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by','from']
-
+    let newString = []
+    for (const s of stringArray){
+      if (ESCAPEWORDS.includes(s)){
+        newString.push(s)
+      }else{
+        newString.push(s.capitalize)
+      }
+      return newString.join("")
+    }
   }
 
 
