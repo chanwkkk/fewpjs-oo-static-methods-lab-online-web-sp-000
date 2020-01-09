@@ -17,10 +17,10 @@ class Formatter {
         newString.push(s)
       }else{
         newString.push(s.capitalize)
-      }      
+      }
   }
 }
-  
+
 
 
 }
