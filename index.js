@@ -18,7 +18,7 @@ class Formatter {
       }else{
         newString.push(Formatter.capitalize(s))
       }
-  }    
+  }
      Formatter.capitalize(newString[0])
      return newString.join(" ")
 }
