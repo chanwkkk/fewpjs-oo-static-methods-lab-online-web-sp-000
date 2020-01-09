@@ -16,7 +16,7 @@ class Formatter {
       if (ESCAPEWORDS.includes(s)){
         newString.push(s)
       }else{
-        newString.push(s.capitalize)
+        newString.push(Formatter.capitalize(s))
       }
   }
      return newString.join(" ")
