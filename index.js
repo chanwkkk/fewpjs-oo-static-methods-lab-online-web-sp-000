@@ -10,6 +10,7 @@ class Formatter {
 
   static titleize(string){
     let stringArray = string.split(' ')
+    const ESCAPEWORDS = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by','from']
 
   }
 
