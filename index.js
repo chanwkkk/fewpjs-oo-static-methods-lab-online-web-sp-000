@@ -19,7 +19,7 @@ class Formatter {
         newString.push(Formatter.capitalize(s))
       }
   }
-     Formatter.capitalize(newString[0])
+     newString[0] = Formatter.capitalize(newString[0])
      return newString.join(" ")
 }
 
